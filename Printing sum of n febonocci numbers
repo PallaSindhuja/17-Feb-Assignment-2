@@ -1,0 +1,23 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+a=-1
+b=1
+n=int(input("Enter range"))
+sum=0
+for i in range(1,n+1):
+    c=a+b
+    a=b
+    b=a
+    sum+=i
+print(sum)
+
+output:
+
+Enter range
+89
+4005
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
